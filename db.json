@@ -1,0 +1,23 @@
+{
+  "/home": {
+
+    "get": {
+      "status": 200,
+      "header": {
+        "example": "123ABC"
+      },
+      "body": [{
+        "id": 1,
+        "given_name": "Jo",
+        "family_name": "Active",
+        "active": true
+      },{
+        "id": 2,
+        "given_name": "Sam",
+        "family_name": "Inactive",
+        "active": false
+      }]
+    },
+  }
+  
+}
